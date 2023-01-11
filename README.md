@@ -1,0 +1,1 @@
+[![build and test](https://github.com/NytWo/Projekt_System_Informatyczne/actions/workflows/build-and-test.yml/badge.svg)](https://github.com/NytWo/Projekt_System_Informatyczne/actions/workflows/build-and-test.yml)

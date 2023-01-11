@@ -1,15 +1,19 @@
 version: "3.9"  # optional since v1.27.0
 services:
-  web_api:
-    image: web_api
-    container_name: web_api_application
-    ports:
-      - "5000:80"
-  sql:
+  sql.data:
     image: "mcr.microsoft.com/mssql/server:2022-latest"
-    container_name: server
     ports: # not actually needed, because the two services are on the same network
-      - "1434:1433" 
+      - "1433:1433" 
     environment:
       - ACCEPT_EULA=y
-      - SA_PASSWORD=yourStrong(!)Password
+      - SA_PASSWORD=1qaz@WSX
+  web_api:
+    image: web_api
+    ports:
+      - "5000:80"
+    build:
+        context: .
+        dockerfile: Dockerfile
+    depends_on:
+      - sql.data
+  

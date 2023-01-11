@@ -1,3 +1,4 @@
-﻿<StaticWebAssets Version="1.0">
-  <ContentRoot BasePath="/Identity" Path="C:\Users\Wojciech\.nuget\packages\microsoft.aspnetcore.identity.ui\3.1.24\staticwebassets\V4\" />
+﻿<?xml version="1.0" encoding="utf-8"?>
+<StaticWebAssets Version="1.0">
+  <ContentRoot BasePath="/Identity" Path="/root/.nuget/fallbackpackages3/microsoft.aspnetcore.identity.ui/3.1.24/staticwebassets/V4/" />
 </StaticWebAssets>

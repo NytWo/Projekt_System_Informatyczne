@@ -35,7 +35,7 @@ namespace BethanysPieShop
 
             services.AddScoped<ICategoryRepository, CategoryRepository>();
             services.AddScoped<IPieRepository, PieRepository>();
-          
+
             services.AddScoped<IOrderRepository, OrderRepository>();
 
             services.AddScoped<ShoppingCart>(sp => ShoppingCart.GetCart(sp));
@@ -55,7 +55,10 @@ namespace BethanysPieShop
             }
 
 
-
+            using (var scope =
+  app.ApplicationServices.CreateScope())
+            using (var context = scope.ServiceProvider.GetService<AppDbContext>())
+                context.Database.Migrate();
 
             app.UseHttpsRedirection();
             app.UseStaticFiles();

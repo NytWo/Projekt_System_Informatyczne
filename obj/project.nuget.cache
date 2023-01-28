@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "bffaU7FX09BNFTtoy4VQhCSJ1vas4ACN4OLE6l6uK67vrkGKn0YIOm0Z8wL/Hqy0wsPMDf8Rn1ktrEp5+ozu8w==",
+  "dgSpecHash": "okyYMoOxI/JPVbwqnGDyj94DOT0Qlf8Tq4R4JT66kba7pL1Eel3tRAJnOy+Fx2gwIXx0r1y9z2gNvgYWKRjcgg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Wojciech\\Projekt_System_Informatyczne\\BethanysPieShop.csproj",
+  "projectFilePath": "C:\\Users\\Wojciech\\Source\\Repos\\Projekt_System_Informatyczne\\BethanysPieShop.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Wojciech\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\3.1.24\\microsoft.aspnetcore.cryptography.internal.3.1.24.nupkg.sha512",
     "C:\\Users\\Wojciech\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\3.1.24\\microsoft.aspnetcore.cryptography.keyderivation.3.1.24.nupkg.sha512",

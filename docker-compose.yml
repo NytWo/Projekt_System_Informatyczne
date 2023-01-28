@@ -1,8 +1,8 @@
-version: "3.9"  # optional since v1.27.0
+version: "3.9" 
 services:
   sql.data:
     image: "mcr.microsoft.com/mssql/server:2022-latest"
-    ports: # not actually needed, because the two services are on the same network
+    ports: 
       - "1433:1433" 
     environment:
       - ACCEPT_EULA=y
